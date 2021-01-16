@@ -7,6 +7,7 @@ int main() {
 	cin.tie(0);
 	int a, b;
 	cin >> a >> b;
+	// view the image in this repository for better understanding
 	// find the midpoint of these two numbers
 	int midpoint = ((a + b) % 2 == 0 ? (a + b) / 2 : (a + b) / 2 + 1);
 	// get the distance of the first friend from the midpoint
